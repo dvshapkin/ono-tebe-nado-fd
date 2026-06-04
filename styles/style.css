@@ -197,14 +197,24 @@ margin-left: 40px;
   letter-spacing: 0%;
 }
 
+/* About styles */
+
 .about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  min-height: 595px;
   margin: 120px 24px 0;
+  padding-top: 35px;
 }
 
 .about__logo {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  align-self: start;
+  justify-self: center;
 
   width: 240px;
   height: 240px;
@@ -218,6 +228,13 @@ margin-left: 40px;
   height: 114px;
 }
 
+.about__description {
+  justify-self: center;
+
+  margin-top: 105px;
+  padding-left: 23px;
+}
+
 .about__title {
   font-weight: 700;
   font-size: 40px;
@@ -227,6 +244,13 @@ margin-left: 40px;
 }
 
 .about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  margin-top: 103px;
+  min-width: 693px;
+
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
