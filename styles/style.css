@@ -31,7 +31,6 @@
   font-style: normal;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 
 .header__menu {
@@ -44,7 +43,6 @@
   font-style: normal;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 
 .header__menu-item_first {
@@ -69,7 +67,6 @@
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: 0%;
 }
 
 .header__address {
@@ -133,7 +130,6 @@
   font-style: normal;
   font-size: 22px;
   line-height: 28px;
-  letter-spacing: 0%;
   text-transform: uppercase;
   word-spacing: 18px;
 
@@ -149,10 +145,9 @@
   color: white;
 
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 22px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
 }
@@ -169,7 +164,6 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -190,7 +184,6 @@
   font-style: normal;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0%;
 }
 
 .card-link {
@@ -232,10 +225,8 @@
   width: 254px;
 
   font-weight: 700;
-  font-style: Bold;
   font-size: 22px;
   line-height: 120%;
-  letter-spacing: 0%;
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-style: solid;
@@ -256,7 +247,6 @@
   font-style: normal;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: 0%;
 
   text-underline-offset: 5px;
 }
@@ -303,7 +293,6 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -319,7 +308,6 @@
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0%;
 }
 
 /* Footer styles */
@@ -348,7 +336,6 @@
   font-style: normal;
   font-size: 18px;
   line-height: 120%;
-  letter-spacing: 0%;
 }
 
 .social-list {
