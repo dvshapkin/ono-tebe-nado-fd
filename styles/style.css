@@ -1,50 +1,139 @@
-html {
-  background-color: white;
-}
+.header {
+  display: flex;
+  align-items: center;
 
-body {
-  height: 100vh;
-  background-color: bisque;
+  padding: 95px 50px 100px;
 }
 
 .menu {
-
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
-.header_menu {
+.header__menu {
+  display: flex;
+  justify-content: space-between;
 
+  width: 391px;
+
+  list-style-type: circle;
+}
+
+.header__menu-item_first {
+  list-style-type: none;
+}
+
+.header__menu-item {
+  padding-left: 4px;
 }
 
 .logo {
-
+  width: 148px;
 }
 
-.logo_dark {
-
+.logo_black {
+  height: 105px;
+  margin-left: 37px;
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  height: 98px;
 
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.address_on-header {
+  margin-left: 184px;
 }
 
 .cover {
-
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
 }
 
-.cover__title {
+.overlay {
+  height: 757px;
+  padding: 165px 50px 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 
+.cover-title {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.cover-title__line-1 {
+  align-self: flex-start;
+}
+
+.cover-title__line-2 {
+  margin-top: 20px;
+  align-self: center;
+}
+
+.cover-title__line-3 {
+  margin-top: 20px;
+  align-self: flex-end;
 }
 
 .cover__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  height: 51px;
+  margin-top: 106px;
 }
 
 .cover__text {
+  display: flex;
+  justify-content: space-between;
 
+  width: 637px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
+  color: white;
 }
 
 .cover__button-bet {
+  width: 256px;
+  height: 51px;
 
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .lots {
@@ -79,22 +168,37 @@ body {
 
 }
 
-.footer_menu {
+.footer {
+  display: flex;
+  align-items: start;
 
+  padding: 0 50px 82px;
+}
+
+.footer_menu {
+  margin-left: 154px;
+
+  list-style-type: none;
+  text-align: center;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .social-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
 
+  width: 240px;
+
+  list-style-type: none;
 }
 
-.social-list__youtube {
-
-}
-
-.social-list__vk {
-
-}
-
-.social-list__pinterest {
-
+.social-list__item {
+  width: 48px;
+  height: 48px;
 }
