@@ -151,6 +151,8 @@
   text-transform: uppercase;
 }
 
+/* Lots styles */
+
 .lots {
   margin: 180px 24px 0;
 }
@@ -168,6 +170,7 @@
 .lots__cards {
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
 
   margin-top: 27px;
   list-style-type: none;
