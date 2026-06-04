@@ -234,12 +234,16 @@ margin-left: 40px;
   letter-spacing: 0%;
 }
 
+/* Footer styles */
+
 .footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: start;
 
+  min-height: 180px;
   margin-top: 180px;
-  padding: 0 50px 82px;
+  padding: 0 50px;
 }
 
 .footer__address {
@@ -247,7 +251,7 @@ margin-left: 40px;
 }
 
 .footer_menu {
-  margin-left: 154px;
+  min-width: 164px;
 
   list-style-type: none;
   text-align: center;
@@ -255,16 +259,16 @@ margin-left: 40px;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-  line-height: 100%;
+  line-height: 120%;
   letter-spacing: 0%;
 }
 
 .social-list {
   display: flex;
   justify-content: space-between;
-  margin-left: auto;
+  justify-self: end;
 
-  width: 240px;
+  min-width: 240px;
 
   list-style-type: none;
 }
