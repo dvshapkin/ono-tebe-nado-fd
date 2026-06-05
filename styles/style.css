@@ -16,6 +16,10 @@
   text-decoration: none;
 }
 
+.letter-spacing_0 {
+  letter-spacing: 0;
+}
+
 /* Header styles */
 
 .header {
@@ -111,12 +115,12 @@
 
 .aligned-text_center {
   margin-top: 20px;
-  margin-left: 331px;
+  align-self: center;
 }
 
 .aligned-text_right {
   margin-top: 20px;
-  margin-left: 614px;
+  align-self: end;
 }
 
 .cover__description {
